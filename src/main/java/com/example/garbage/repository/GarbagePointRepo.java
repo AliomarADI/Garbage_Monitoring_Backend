@@ -12,6 +12,5 @@ public interface GarbagePointRepo extends JpaRepository<GarbagePoint,Integer> {
 
     @Override
     List<GarbagePoint> findAll();
-
     List<GarbagePoint> getAllByUserId(int id);
 }

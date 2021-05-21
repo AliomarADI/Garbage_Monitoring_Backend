@@ -17,5 +17,5 @@ public class GarbagePoint {
     String city;
     String address;
     String size;
-    int userId;
+    int userPhoneNumber;
 }
