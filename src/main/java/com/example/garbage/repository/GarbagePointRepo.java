@@ -10,7 +10,5 @@ import java.util.List;
 public interface GarbagePointRepo extends JpaRepository<GarbagePoint,Integer> {
     GarbagePoint getById(int id);
 
-    @Override
-    List<GarbagePoint> findAll();
     List<GarbagePoint> getAllByUserId(int id);
 }
