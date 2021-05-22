@@ -25,7 +25,7 @@ public class GarbagePointServiceImpl implements IGarbagePointService {
     }
 
     @Override
-    public List<GarbagePoint> getAllByUserId(int id) {
-        return garbagePointRepo.getAllByUserId(id);
+    public List<GarbagePoint> getAllByUserId(String id) {
+        return garbagePointRepo.getAllByUserPhoneNumber(id);
     }
 }

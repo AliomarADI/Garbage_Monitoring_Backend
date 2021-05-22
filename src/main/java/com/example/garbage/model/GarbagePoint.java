@@ -17,10 +17,6 @@ public class GarbagePoint {
     String city;
     String address;
     String size;
-    int userPhoneNumber;
-//    @ManyToOne(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
-//    @JoinColumn(name = "user_id",insertable = false,updatable = false)
-//    private Account user;
-    @Column(name = "user_id")
-    private int userId;
+    String userPhoneNumber;
+
 }
